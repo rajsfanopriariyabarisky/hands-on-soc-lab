@@ -23,6 +23,8 @@ This repository documents the implementation of a functional SIEM/XDR Home Lab b
 
 1. **Telemetry Collection:**
    Integrated Windows host as an active Wazuh Agent to forward telemetry alongside Linux authentication logs (`/var/log/auth.log`).
+   <img width="959" height="533" alt="ss soc 1" src="https://github.com/user-attachments/assets/e1e6628f-3d6c-4435-a4c2-de03c56bd4f8" />
+
 
 2. **Attack Simulation:**
    Executed multiple failed SSH authentication attempts from the Windows host targeting the Linux server to simulate a brute force pattern.
@@ -42,6 +44,8 @@ This repository documents the implementation of a functional SIEM/XDR Home Lab b
 ---
 
 ## 🔍 Root Cause Analysis (JSON Log Forensic)
+<img width="1909" height="1059" alt="ss soc 2" src="https://github.com/user-attachments/assets/13e27e28-cfa8-40ff-8e14-7cd8d58db068" />
+
 Raw log telemetry extracted from the Wazuh Manager:
 
 ```json
