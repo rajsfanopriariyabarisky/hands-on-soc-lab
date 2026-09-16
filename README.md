@@ -51,7 +51,7 @@ This repository documents the implementation of a functional SIEM/XDR Home Lab b
 
 Raw log telemetry extracted from the Wazuh Manager:
 
-json
+```json
 {
   "agent": {
     "id": "000",
@@ -63,7 +63,7 @@ json
     "description": "sshd: brute force trying to get access to the system."
   },
   "previous_output": "Failed password for invalid user hacker from 192.168.52.1 port 45672 ssh2"
-}
+}```
 
 📊 Visual Threat Dashboard & MITRE ATT&CK Overview
 SOC Threat Hunting Dashboard
