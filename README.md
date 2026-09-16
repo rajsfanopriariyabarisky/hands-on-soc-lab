@@ -15,7 +15,8 @@ This repository documents the implementation of a functional SIEM/XDR Home Lab b
 ## 📸 Endpoint Status & Infrastructure Verification
 
 ### Active Windows Agent Monitoring
-<img width="1919" height="1059" alt="ss soc 4" src="[https://github.com/user-attachments/assets/f7938002-cf6c-4349-8331-a3c9b11d9ced](https://github.com/user-attachments/assets/f7938002-cf6c-4349-8331-a3c9b11d9ced)" />
+<img width="1919" height="1059" alt="ss soc 4" src="https://github.com/user-attachments/assets/c1ffb2c6-6b45-4758-ae41-6e39c71cd2d3" />
+
 
 ---
 
@@ -33,7 +34,8 @@ This repository documents the implementation of a functional SIEM/XDR Home Lab b
    * **Description:** `sshd: brute force trying to get access to the system.`
 
 ### 🚨 Real-time Security Event Ingestion (Level 10 Alert Triggered)
-<img width="959" height="533" alt="ss soc 1" src="[https://github.com/user-attachments/assets/0df1f923-ebe1-464a-87f3-0cb0d0f44a48](https://github.com/user-attachments/assets/0df1f923-ebe1-464a-87f3-0cb0d0f44a48)" />
+<img width="959" height="533" alt="ss soc 1" src="https://github.com/user-attachments/assets/0faa4541-d3da-4513-a1c9-08508ea3f301" />
+
 
 4. **MITRE ATT&CK Mapping:**
    * **Tactics:** Credential Access
@@ -44,7 +46,8 @@ This repository documents the implementation of a functional SIEM/XDR Home Lab b
 ## 🔍 Root Cause Analysis (JSON Log Forensic)
 
 ### 🔬 Raw Telemetry Forensic View
-<img width="1909" height="1059" alt="ss soc 2" src="[https://github.com/user-attachments/assets/13e27e28-cfa8-40ff-8e14-7cd8d58db068](https://github.com/user-attachments/assets/13e27e28-cfa8-40ff-8e14-7cd8d58db068)" />
+<img width="1909" height="1059" alt="ss soc 2" src="https://github.com/user-attachments/assets/dad99ff6-bc1c-48c4-90d0-7fda36ababa6" />
+
 
 Raw log telemetry extracted from the Wazuh Manager:
 
@@ -61,3 +64,15 @@ Raw log telemetry extracted from the Wazuh Manager:
   },
   "previous_output": "Failed password for invalid user hacker from 192.168.52.1 port 45672 ssh2"
 }
+
+📊 Visual Threat Dashboard & MITRE ATT&CK Overview
+SOC Threat Hunting Dashboard
+<img width="1919" height="1066" alt="ss 3 soc" src="https://github.com/user-attachments/assets/094e3fd7-21de-44f2-9f6c-e4db551dd069" />
+
+
+🚀 Key Takeaways
+Established end-to-end visibility across heterogeneous systems (Linux Server & Windows Endpoint).
+
+Validated real-time alert generation from raw authentication failures to visual SOC dashboards.
+
+Gained practical experience in threat hunting, log decoding, and incident evidence documentation.
