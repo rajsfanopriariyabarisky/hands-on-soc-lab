@@ -70,7 +70,7 @@ SOC Threat Hunting Dashboard
 <img width="1919" height="1066" alt="ss 3 soc" src="https://github.com/user-attachments/assets/094e3fd7-21de-44f2-9f6c-e4db551dd069" />
 
 
-🚀 Key Takeaways
+Key Takeaways
 Established end-to-end visibility across heterogeneous systems (Linux Server & Windows Endpoint).
 
 Validated real-time alert generation from raw authentication failures to visual SOC dashboards.
