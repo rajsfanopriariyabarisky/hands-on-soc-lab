@@ -15,7 +15,7 @@ This repository documents the implementation of a functional SIEM/XDR Home Lab b
 ## 📸 Endpoint Status & Infrastructure Verification
 
 ### Active Windows Agent Monitoring
-<img width="1919" height="1059" alt="ss soc 4" src="https://github.com/user-attachments/assets/f7938002-cf6c-4349-8331-a3c9b11d9ced" />
+<img width="1919" height="1059" alt="ss soc 4" src="[https://github.com/user-attachments/assets/f7938002-cf6c-4349-8331-a3c9b11d9ced](https://github.com/user-attachments/assets/f7938002-cf6c-4349-8331-a3c9b11d9ced)" />
 
 ---
 
@@ -23,8 +23,6 @@ This repository documents the implementation of a functional SIEM/XDR Home Lab b
 
 1. **Telemetry Collection:**
    Integrated Windows host as an active Wazuh Agent to forward telemetry alongside Linux authentication logs (`/var/log/auth.log`).
-   <img width="959" height="533" alt="ss soc 1" src="https://github.com/user-attachments/assets/e1e6628f-3d6c-4435-a4c2-de03c56bd4f8" />
-
 
 2. **Attack Simulation:**
    Executed multiple failed SSH authentication attempts from the Windows host targeting the Linux server to simulate a brute force pattern.
@@ -35,7 +33,7 @@ This repository documents the implementation of a functional SIEM/XDR Home Lab b
    * **Description:** `sshd: brute force trying to get access to the system.`
 
 ### 🚨 Real-time Security Event Ingestion (Level 10 Alert Triggered)
-<img width="959" height="533" alt="ss soc 1" src="https://github.com/user-attachments/assets/0df1f923-ebe1-464a-87f3-0cb0d0f44a48" />
+<img width="959" height="533" alt="ss soc 1" src="[https://github.com/user-attachments/assets/0df1f923-ebe1-464a-87f3-0cb0d0f44a48](https://github.com/user-attachments/assets/0df1f923-ebe1-464a-87f3-0cb0d0f44a48)" />
 
 4. **MITRE ATT&CK Mapping:**
    * **Tactics:** Credential Access
@@ -44,7 +42,9 @@ This repository documents the implementation of a functional SIEM/XDR Home Lab b
 ---
 
 ## 🔍 Root Cause Analysis (JSON Log Forensic)
-<img width="1909" height="1059" alt="ss soc 2" src="https://github.com/user-attachments/assets/13e27e28-cfa8-40ff-8e14-7cd8d58db068" />
+
+### 🔬 Raw Telemetry Forensic View
+<img width="1909" height="1059" alt="ss soc 2" src="[https://github.com/user-attachments/assets/13e27e28-cfa8-40ff-8e14-7cd8d58db068](https://github.com/user-attachments/assets/13e27e28-cfa8-40ff-8e14-7cd8d58db068)" />
 
 Raw log telemetry extracted from the Wazuh Manager:
 
