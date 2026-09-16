@@ -51,7 +51,7 @@ This repository documents the implementation of a functional SIEM/XDR Home Lab b
 
 Raw log telemetry extracted from the Wazuh Manager:
 
-```json
+json
 {
   "agent": {
     "id": "000",
@@ -67,7 +67,8 @@ Raw log telemetry extracted from the Wazuh Manager:
 
 📊 Visual Threat Dashboard & MITRE ATT&CK Overview
 SOC Threat Hunting Dashboard
-<img width="1919" height="1066" alt="ss 3 soc" src="https://github.com/user-attachments/assets/094e3fd7-21de-44f2-9f6c-e4db551dd069" />
+<img width="1919" height="1066" alt="ss 3 soc" src="https://github.com/user-attachments/assets/b8b2c698-4673-4980-94af-ada87fd104df" />
+
 
 
 Key Takeaways
