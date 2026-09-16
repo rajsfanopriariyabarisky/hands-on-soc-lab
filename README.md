@@ -53,13 +53,16 @@ Raw log telemetry extracted from the Wazuh Manager:
   },
   "previous_output": "Failed password for invalid user hacker from 192.168.52.1 port 45672 ssh2"
 }
-🚀 Key Takeaways
-Established end-to-end visibility across heterogeneous systems (Linux Server & Windows Endpoint).
-
-Validated real-time alert generation from raw authentication failures to visual SOC dashboards.
-
-Gained practical experience in threat hunting, log decoding, and incident evidence documentation.
-<img width="1919" height="1066" alt="ss 3 soc" src="https://github.com/user-attachments/assets/9b9f13fc-3ce9-4c32-bf9e-41cfee3e3413" />
-<img width="1919" height="1059" alt="ss soc 4" src="https://github.com/user-attachments/assets/161fb125-38f8-4059-9cae-6499785faa63" />
-<img width="1909" height="1059" alt="ss soc 2" src="https://github.com/user-attachments/assets/5dede545-ba9d-4f6c-89e3-defef3bea30f" />
-<img width="959" height="533" alt="ss soc 1" src="https://github.com/user-attachments/assets/55310a36-9c8a-435d-93b2-aa2d5a03168a" />
+```json
+{
+  "agent": {
+    "id": "000",
+    "name": "soc-server"
+  },
+  "rule": {
+    "id": "5712",
+    "level": 10,
+    "description": "sshd: brute force trying to get access to the system."
+  },
+  "previous_output": "Failed password for invalid user hacker from 192.168.52.1 port 45672 ssh2"
+}
