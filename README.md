@@ -63,7 +63,8 @@ Raw log telemetry extracted from the Wazuh Manager:
     "description": "sshd: brute force trying to get access to the system."
   },
   "previous_output": "Failed password for invalid user hacker from 192.168.52.1 port 45672 ssh2"
-}```
+}
+```
 
 📊 Visual Threat Dashboard & MITRE ATT&CK Overview
 SOC Threat Hunting Dashboard
